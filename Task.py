@@ -4,3 +4,4 @@
 # При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 def filter_short_strings(strings):
+    short_strings = ["dog", "cat", "open", "srring"]
