@@ -4,5 +4,8 @@
 # При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 def filter_short_strings(strings):
-    short_strings = ["dog", "cat", "open", "srring"]
+    short_strings = ["dog", "cat", "open", "string"]
     for string in strings:
+        if len(string) <= 3:
+            short_strings.append(string)
+    return short_strings
