@@ -9,3 +9,7 @@ def filter_short_strings(strings):
         if len(string) <= 3:
             short_strings.append(string)
     return short_strings
+input_strings = input("Введите строки, разделенные пробелами: ").split()
+result_strings = filter_short_strings(input_strings)
+print("Строки длиной <= 3 символов:", result_strings)
+
